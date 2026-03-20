@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets & Weights (Do not push heavy files)
+images/
+TRAIN.csv
+TEST.csv
+*.pth
+*.safetensors
+*.npy
+
+# Output files
+FINAL.csv
+pseudo_labels.csv
+
+# macOS
+.DS_Store
